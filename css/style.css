@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.teams-container {
+    width: 80%;
+    margin: auto;
+}
+
+.team {
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.team .team-name {
+    font-weight: bold;
+}
+.team .team-founded {
+    margin-bottom: 20px;
+}
+.team .actions-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team .actions-container .js-favourite-btn {
+    text-decoration: none;
+    border: 1px solid green;
+    background-color: lightgreen;
+    padding: 5px;
+}
+.team .actions-container .js-favourite-btn.clicked {
+    background-color: red;
+}
